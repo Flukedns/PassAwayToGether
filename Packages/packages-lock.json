@@ -1,5 +1,11 @@
 {
   "dependencies": {
+    "com.meta.xr.simulator": {
+      "version": "file:C:/Users/Administrator/Downloads/com.meta.xr.simulator-57.0.0.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {}
+    },
     "com.unity.burst": {
       "version": "1.8.9",
       "depth": 1,
