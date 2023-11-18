@@ -388,7 +388,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1540407282}
         m_TargetAssemblyTypeName: SceneChanger, Assembly-CSharp
-        m_MethodName: ChangToDialog
+        m_MethodName: ChangeToDialog
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
