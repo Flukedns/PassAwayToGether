@@ -7,19 +7,19 @@ public class SceneChanger : MonoBehaviour
 {
     public void ChangeToGamePlay()
     {   
-        Debug.Log("GamePlay");
+        //Debug.Log("GamePlay");
         SceneManager.LoadScene("GamePlay");
     }
 
     public void ChangeToDialog()
     {   
-        Debug.Log("Dialog");
+        //Debug.Log("Dialog");
         SceneManager.LoadScene("Dialog");
     }
 
     public void ChangeToMenu()
     {   
-        Debug.Log("Menu");
+        //Debug.Log("Menu");
         SceneManager.LoadScene("MainMenu");
     }
 
