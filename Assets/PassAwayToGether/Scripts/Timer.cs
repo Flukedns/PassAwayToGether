@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 public class Timer : MonoBehaviour
 {
     public TextMeshProUGUI timerText;
@@ -35,7 +36,7 @@ public class Timer : MonoBehaviour
         if (minutes == 1)
         {
             toContinue = false;
-
+            //SceneManager.LoadScene("MainMenu");
         }
     }
 

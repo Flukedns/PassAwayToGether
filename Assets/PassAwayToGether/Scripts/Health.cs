@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Health : MonoBehaviour
-{   
+{
+    [SerializeField] private PlayerController health;
     [SerializeField] private GameObject[] Hearts;
     public int HP;
     void Start()
@@ -13,6 +14,9 @@ public class Health : MonoBehaviour
 
     public void SetHP()
     {
+        
+        
+        
         if (HP == 1)
         {
             Hearts[0].SetActive(true);

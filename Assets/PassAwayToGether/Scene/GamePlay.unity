@@ -122,7 +122,7 @@ NavMeshSettings:
     preserveTilesOutsideBounds: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 0}
+  m_NavMeshData: {fileID: 23800000, guid: 679f97afa01c08e42a230c02a55dd418, type: 2}
 --- !u!1001 &8164015
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -201,6 +201,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 03ae5e0cdfcb3a241a481b035d04f038, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &37491626 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5189555685448262315, guid: 2faa2bd0ae62ddf45bba0fd426362a03,
+    type: 3}
+  m_PrefabInstance: {fileID: 1784527067}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &37491634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 37491626}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cabd999c597c363499c74b8ab8dbd68e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &40873646 stripped
@@ -802,6 +820,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Shelfuv
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b403b09c2f9c30b4cace95c2bb8828d2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1416,6 +1439,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tableuv (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bbf9d84cb0af65f4a91e42c87777845e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2552,12 +2580,12 @@ GameObject:
   - component: {fileID: 978722189}
   - component: {fileID: 978722188}
   - component: {fileID: 978722187}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!64 &978722187
 MeshCollider:
@@ -3240,6 +3268,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: chairuv
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 62b3eb8088184d34f80392938477a990,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3516,6 +3549,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tableuv (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bbf9d84cb0af65f4a91e42c87777845e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4347,6 +4385,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayerInteractionRig
       objectReference: {fileID: 0}
+    - target: {fileID: 5189555685448262315, guid: 2faa2bd0ae62ddf45bba0fd426362a03,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 5471645852973569733, guid: 2faa2bd0ae62ddf45bba0fd426362a03,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5515089395092363998, guid: 2faa2bd0ae62ddf45bba0fd426362a03,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4400,7 +4448,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5189555685448262315, guid: 2faa2bd0ae62ddf45bba0fd426362a03,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 37491634}
   m_SourcePrefab: {fileID: 100100000, guid: 2faa2bd0ae62ddf45bba0fd426362a03, type: 3}
 --- !u!1 &1817958158
 GameObject:

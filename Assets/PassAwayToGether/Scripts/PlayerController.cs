@@ -2,26 +2,40 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
-    NavMeshAgent agent;
+    private NavMeshAgent agent;
+    private int hp;
     // Start is called before the first frame update
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
+        hp = 5;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (hp == 0)
         {
-            RaycastHit hit;
-            if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition),out hit,100))
-            {
-                agent.SetDestination(hit.point);
-            }
+            IsDead();
+        }
+        
+    }
+
+    void OnTriggerEnter(Collider damage)
+    {
+        if (damage.gameObject.tag == "TakeDamage")
+        {
+            hp = hp -1;
         }
     }
+
+    void IsDead()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
+    
 }
