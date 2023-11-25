@@ -5,17 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c53afb2a-a245-4f55-bc77-5432b71dc672" name="Changes" comment="w">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PassAwayToGether/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PassAwayToGether/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PassAwayToGether/Model/cockroachUV_Animetion.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PassAwayToGether/Model/cockroachUV_Animetion.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PassAwayToGether/Model/cockroachUV_Animetion.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PassAwayToGether/Model/cockroachUV_Animetion.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PassAwayToGether/Scene/Dialog.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PassAwayToGether/Scene/Dialog.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PassAwayToGether/Scene/GamePlay.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PassAwayToGether/Scene/GamePlay.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PassAwayToGether/Scripts/Health.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PassAwayToGether/Scripts/Health.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PassAwayToGether/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PassAwayToGether/Scripts/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PassAwayToGether/Scripts/Timer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PassAwayToGether/Scripts/Timer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PassAwayToGether/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PassAwayToGether/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PassAwayToGether/Scripts/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/BurstAotSettings_StandaloneWindows.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/BurstAotSettings_StandaloneWindows.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/CommonBurstAotSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/CommonBurstAotSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +76,7 @@
       <workItem from="1700809569008" duration="786000" />
       <workItem from="1700810489191" duration="3480000" />
       <workItem from="1700814912202" duration="12752000" />
+      <workItem from="1700889437589" duration="251000" />
     </task>
     <servers />
   </component>
