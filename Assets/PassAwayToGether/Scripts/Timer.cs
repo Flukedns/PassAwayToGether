@@ -5,14 +5,14 @@ using TMPro;
 public class Timer : MonoBehaviour
 {
     public TextMeshProUGUI timerText;
-    public float currentTime=0;
+    public float currentTime;
     public bool toContinue=true;
     private int minutes;
     private int seconds;
     private string t;
     void Start()
     {
-        
+        currentTime = 60;
     }
 
     // Update is called once per frame
@@ -21,7 +21,7 @@ public class Timer : MonoBehaviour
         
         if (toContinue == true)
         {
-            currentTime += Time.deltaTime;
+            currentTime -= Time.deltaTime;
             countingTime(currentTime);
         }
     }
@@ -32,7 +32,7 @@ public class Timer : MonoBehaviour
         seconds = Mathf.FloorToInt(currentT - minutes * 60);
         t = string.Format("{0:00}:{1:00}", minutes, seconds);
         timerText.text = t;
-        if (minutes == 1)
+        if (minutes == 0&&seconds==0)
         {
             toContinue = false;
 
