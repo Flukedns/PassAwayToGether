@@ -36,7 +36,6 @@ public class Timer : MonoBehaviour
         if (minutes == 1)
         {
             toContinue = false;
-            //SceneManager.LoadScene("MainMenu");
         }
     }
 

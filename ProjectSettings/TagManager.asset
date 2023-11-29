@@ -6,6 +6,8 @@ TagManager:
   tags:
   - RoomLight
   - SamplesInfoPanel
+  - Enemy
+  - TakenDamage
   layers:
   - Default
   - TransparentFX

@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -12,6 +13,11 @@ public class EnemySpawn : MonoBehaviour
     void Start()
     {
         SpawnNewEnemy();
+    }
+
+    void OnEnable()
+    {
+        EnemyManager.OnEnemyKill += SpawnNewEnemy;
     }
 
     void SpawnNewEnemy()
