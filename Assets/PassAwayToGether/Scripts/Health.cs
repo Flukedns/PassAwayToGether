@@ -1,18 +1,36 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Health : MonoBehaviour
-{   
+{
+    [SerializeField] private PlayerController health;
     [SerializeField] private GameObject[] Hearts;
-    public int HP;
+    private int HP;
     void Start()
     {
-        HP = 5;
+        
+    }
+
+    private void Update()
+    {
+        HP = health.hp;
+        SetHP();
     }
 
     public void SetHP()
     {
+
+
+        if (HP == 0 )
+        {
+            Hearts[0].SetActive(false);
+            Hearts[1].SetActive(false);
+            Hearts[2].SetActive(false);
+            Hearts[3].SetActive(false);
+            Hearts[4].SetActive(false);
+        }
         if (HP == 1)
         {
             Hearts[0].SetActive(true);
@@ -56,7 +74,7 @@ public class Health : MonoBehaviour
     }
     public void AddHP(int heal)
     {
-        HP += heal;
+        //HP += heal;
         SetHP();
     }
     

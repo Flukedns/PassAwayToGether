@@ -2,10 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
-    NavMeshAgent agent;
+    private NavMeshAgent agent;
+    public int hp;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,13 +17,22 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+       
+        
+    }
+
+    void OnTriggerEnter(Collider damage)
+    {
+        if (damage.gameObject.tag == "TakenDamage")
         {
-            RaycastHit hit;
-            if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition),out hit,100))
-            {
-                agent.SetDestination(hit.point);
-            }
+            StartCoroutine(DelayDamage());
+            hp -= 1;
         }
     }
+
+    IEnumerator DelayDamage()
+    {
+        yield return new WaitForSeconds(0.75f);
+    }
+    
 }

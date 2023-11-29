@@ -1,10 +1,10 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
-{
-    public Transform[] spawnPoint;
+public class EnemySpawn : MonoBehaviour
+{public Transform[] spawnPoint;
     public GameObject enemyPrefab;
     
     
@@ -13,6 +13,11 @@ public class NewBehaviourScript : MonoBehaviour
     void Start()
     {
         SpawnNewEnemy();
+    }
+
+    void OnEnable()
+    {
+        EnemyManager.OnEnemyKill += SpawnNewEnemy;
     }
 
     void SpawnNewEnemy()

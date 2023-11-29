@@ -4,6 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="c53afb2a-a245-4f55-bc77-5432b71dc672" name="Changes" comment="" />
+=======
     <list default="true" id="c53afb2a-a245-4f55-bc77-5432b71dc672" name="Changes" comment="">
 <<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/Assets/Scenes/AllTest.meta" afterDir="false" />
@@ -29,6 +32,7 @@
       <change afterPath="$PROJECT_DIR$/.idea/.idea.PassAwayToGether/.idea/workspace.xml" afterDir="false" />
 >>>>>>> 6e78296852939e9a18b357c224bd68a5bb9a3f2d
     </list>
+>>>>>>> main
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,6 +41,8 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+<<<<<<< HEAD
+=======
   <component name="HighlightingSettingsPerFile">
 <<<<<<< HEAD
     <setting file="file://$USER_HOME$/Downloads/EnemyAiTutorial.cs" root0="SKIP_HIGHLIGHTING" />
@@ -44,6 +50,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemySpawn.cs" root0="FORCE_HIGHLIGHTING" />
 >>>>>>> 6e78296852939e9a18b357c224bd68a5bb9a3f2d
   </component>
+>>>>>>> main
   <component name="ProjectId" id="2XcrcCKAvoAkxJzwpyUSGLVbzhn" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -107,7 +114,16 @@
       <workItem from="1700801651309" duration="56000" />
 =======
       <workItem from="1698939297612" duration="639000" />
+<<<<<<< HEAD
+      <workItem from="1700809569008" duration="786000" />
+      <workItem from="1700810489191" duration="3480000" />
+      <workItem from="1700814912202" duration="12752000" />
+      <workItem from="1700889437589" duration="251000" />
+      <workItem from="1701017375758" duration="5291000" />
+      <workItem from="1701067040216" duration="11283000" />
+=======
 >>>>>>> 6e78296852939e9a18b357c224bd68a5bb9a3f2d
+>>>>>>> main
     </task>
     <servers />
   </component>
