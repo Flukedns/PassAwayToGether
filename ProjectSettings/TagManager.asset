@@ -3,24 +3,16 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - RoomLight
-  - SamplesInfoPanel
-  - Enemy
-  - TakenDamage
+  tags: []
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Hide
+  - 
   - Water
   - UI
-<<<<<<< HEAD
-  - Ground
-=======
-  - Gound
->>>>>>> main
-  - Player
+  - 
+  - 
   - 
   - 
   - 
