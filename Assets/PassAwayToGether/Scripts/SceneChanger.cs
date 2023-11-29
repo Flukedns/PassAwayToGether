@@ -8,7 +8,7 @@ public class SceneChanger : MonoBehaviour
     public void ChangeToGamePlay()
     {   
         //Debug.Log("GamePlay");
-        SceneManager.LoadScene("GamePlay");
+        SceneManager.LoadScene("GamePlay2");
     }
 
     public void ChangeToDialog()

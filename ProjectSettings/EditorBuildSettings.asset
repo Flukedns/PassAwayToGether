@@ -12,8 +12,8 @@ EditorBuildSettings:
     path: Assets/PassAwayToGether/Scene/Dialog.unity
     guid: f33af99bc607095419a7f8975626ea37
   - enabled: 1
-    path: Assets/PassAwayToGether/Scene/GamePlay.unity
-    guid: abf84985671cf1b4eb37fb2431279ad6
+    path: Assets/PassAwayToGether/Scene/Gameplay2.unity
+    guid: 48738ff32280f3848a3d64ea124b7bcd
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: f8c42e9d7a5b0214794874e10a8619dd,
       type: 2}
