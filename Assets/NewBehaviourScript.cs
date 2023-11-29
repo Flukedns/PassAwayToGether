@@ -17,6 +17,10 @@ public class NewBehaviourScript : MonoBehaviour
 
     void SpawnNewEnemy()
     {
+<<<<<<< Updated upstream:Assets/NewBehaviourScript.cs
+        //if(OVRInput.GetDown(OVRInput.RawButton.))
+=======
         Instantiate(enemyPrefab, spawnPoint[0].transform.position, Quaternion.identity);
+>>>>>>> Stashed changes:Assets/Scripts/EnemySpawn.cs
     }
 }
