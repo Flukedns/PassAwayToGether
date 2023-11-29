@@ -4,7 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="c53afb2a-a245-4f55-bc77-5432b71dc672" name="Changes" comment="" />
+=======
+    <list default="true" id="c53afb2a-a245-4f55-bc77-5432b71dc672" name="Changes" comment="">
+<<<<<<< HEAD
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/AllTest.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/AllTest.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/AllTest/NavMesh.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/AllTest/NavMesh.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PassAwayToGether/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PassAwayToGether/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AiManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AiManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AiManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AiManager.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EnemyManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EnemyManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EnemyManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EnemyManager.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NewBehaviourScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NewBehaviourScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayerController.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlayerController.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/AllTest.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/AllTest.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.PassAwayToGether/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.PassAwayToGether/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.PassAwayToGether/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.PassAwayToGether/.idea/workspace.xml" afterDir="false" />
+>>>>>>> 6e78296852939e9a18b357c224bd68a5bb9a3f2d
+    </list>
+>>>>>>> main
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +41,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+<<<<<<< HEAD
+=======
+  <component name="HighlightingSettingsPerFile">
+<<<<<<< HEAD
+    <setting file="file://$USER_HOME$/Downloads/EnemyAiTutorial.cs" root0="SKIP_HIGHLIGHTING" />
+=======
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemySpawn.cs" root0="FORCE_HIGHLIGHTING" />
+>>>>>>> 6e78296852939e9a18b357c224bd68a5bb9a3f2d
+  </component>
+>>>>>>> main
   <component name="ProjectId" id="2XcrcCKAvoAkxJzwpyUSGLVbzhn" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -22,6 +60,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+<<<<<<< HEAD
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+=======
+>>>>>>> 6e78296852939e9a18b357c224bd68a5bb9a3f2d
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -64,13 +106,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1698939293801</updated>
+<<<<<<< HEAD
+      <workItem from="1698939297612" duration="804000" />
+      <workItem from="1699434937937" duration="1615000" />
+      <workItem from="1699439931461" duration="2350000" />
+      <workItem from="1699859356618" duration="10387000" />
+      <workItem from="1700801651309" duration="56000" />
+=======
       <workItem from="1698939297612" duration="639000" />
+<<<<<<< HEAD
       <workItem from="1700809569008" duration="786000" />
       <workItem from="1700810489191" duration="3480000" />
       <workItem from="1700814912202" duration="12752000" />
       <workItem from="1700889437589" duration="251000" />
       <workItem from="1701017375758" duration="5291000" />
       <workItem from="1701067040216" duration="11283000" />
+=======
+>>>>>>> 6e78296852939e9a18b357c224bd68a5bb9a3f2d
+>>>>>>> main
     </task>
     <servers />
   </component>
@@ -93,6 +146,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+<<<<<<< HEAD
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+=======
+>>>>>>> 6e78296852939e9a18b357c224bd68a5bb9a3f2d
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
 </project>
