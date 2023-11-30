@@ -5,14 +5,24 @@ using UnityEngine;
 public class Health : MonoBehaviour
 {   
     [SerializeField] private GameObject[] Hearts;
-    public int HP;
-    void Start()
+    private int HP;
+    public PlayerController2 Healht;
+    void Update()
     {
-        HP = 5;
+        HP = Healht.hp;
+        SetHP();
     }
 
     public void SetHP()
     {
+        if (HP == 0)
+        {
+            Hearts[0].SetActive(false);
+            Hearts[1].SetActive(false);
+            Hearts[2].SetActive(false);
+            Hearts[3].SetActive(false);
+            Hearts[4].SetActive(false);
+        }
         if (HP == 1)
         {
             Hearts[0].SetActive(true);
@@ -60,6 +70,4 @@ public class Health : MonoBehaviour
         SetHP();
     }
     
-
-   
 }

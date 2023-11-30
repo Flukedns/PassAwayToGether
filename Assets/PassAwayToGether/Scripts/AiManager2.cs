@@ -1,17 +1,20 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 using Random = UnityEngine.Random;
 
-public class AiManager : MonoBehaviour
+public class AiManager2 : MonoBehaviour
 {
     private NavMeshAgent agent;
 
-    private Transform player;
+    public Transform player;
 
     public LayerMask whatIsGround, whatIsPlayer;
+
+    private Animator animator;
+
+    public BoxCollider box;
     
     //Patrolling
     public Vector3 walkPoint;
@@ -25,7 +28,13 @@ public class AiManager : MonoBehaviour
     //States
     public float sightRange, attackRange;
     private bool playerInSightRange, playerInAttackRange;
-    
+
+     void Start()
+     {
+         animator = GetComponent<Animator>();
+         box = GetComponentInChildren<BoxCollider>();
+     }
+
     void Awake()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
@@ -40,6 +49,7 @@ public class AiManager : MonoBehaviour
         if (!playerInSightRange && !playerInAttackRange)
         {
             Patrolling();
+            animator.SetBool("IsWalk", true);
         }
         if (playerInSightRange && !playerInAttackRange)
         {
@@ -57,7 +67,6 @@ public class AiManager : MonoBehaviour
         if (!walkPointSet)
         {
             SearchWalkPoint();
-            
         }
 
         if (walkPointSet)
@@ -71,6 +80,7 @@ public class AiManager : MonoBehaviour
         {
             walkPointSet = false;
         }
+        animator.SetBool("IsWalk", true);
     }
 
     void SearchWalkPoint()
@@ -86,18 +96,11 @@ public class AiManager : MonoBehaviour
         }
     }
 
-    void Seek(Vector3 location)
-    {
-        agent.SetDestination(location);
-    }
-
+   
     void Pursue()
     {
-        Vector3 targetDir = player.transform.position - this.transform.position;
-        float playerSpeed = player.GetComponent<NavMeshAgent>().velocity.magnitude;
-        float lookAhead = targetDir.magnitude / (agent.speed + playerSpeed);
-        Seek(player.transform.position + player.transform.position * lookAhead);
-        
+        agent.SetDestination(player.position);
+        animator.SetBool("IsWalk", true);
     }
     
     public void AttackPlayer()
@@ -109,9 +112,9 @@ public class AiManager : MonoBehaviour
         if (!alreadyAttacks)
         {
             //Attack code
-            
-            
-            
+            box.enabled = true;
+            animator.SetBool("IsAttack", true);
+
             alreadyAttacks = true;
             Invoke(nameof(ResetAttack),timeBetweenAttacks);
         }
@@ -120,6 +123,9 @@ public class AiManager : MonoBehaviour
     void ResetAttack()
     {
         alreadyAttacks = false;
+        box.enabled = false;
+        animator.SetBool("IsAttack", false);
+        
     }
 
     private void OnDrawGizmosSelected()
