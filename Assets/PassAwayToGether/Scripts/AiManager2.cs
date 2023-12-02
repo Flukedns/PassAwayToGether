@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -112,20 +113,27 @@ public class AiManager2 : MonoBehaviour
         if (!alreadyAttacks)
         {
             //Attack code
-            box.enabled = true;
-            animator.SetBool("IsAttack", true);
+            animator.SetTrigger("Attack");
 
             alreadyAttacks = true;
             Invoke(nameof(ResetAttack),timeBetweenAttacks);
         }
     }
 
+    void EnableAttack()
+    {
+        box.enabled = true;
+    }
+
+    void DisableAttack()
+    {
+        box.enabled = false;
+    }
+
     void ResetAttack()
     {
         alreadyAttacks = false;
-        box.enabled = false;
-        animator.SetBool("IsAttack", false);
-        
+        //animator.SetBool("IsAttack", false);
     }
 
     private void OnDrawGizmosSelected()

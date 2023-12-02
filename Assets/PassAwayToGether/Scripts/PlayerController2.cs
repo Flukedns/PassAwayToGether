@@ -25,8 +25,13 @@ public class PlayerController2 : MonoBehaviour
         if (damage.gameObject.tag == "TakenDamage")
         {
             StartCoroutine(DelayDamage());
-            hp = hp - 1;
+            TakeDamage(1);
         }
+    }
+
+    void TakeDamage(int _damage)
+    {
+        hp -= _damage;
     }
 
     IEnumerator DelayDamage()

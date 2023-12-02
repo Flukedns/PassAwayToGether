@@ -26,7 +26,7 @@ public class EnemyManager2 : MonoBehaviour
         if (health <= 0)
         {
             anim.SetBool("IsDead", true);
-            Invoke(nameof(DestroyEnemy), 0.5f);
+            Destroy(gameObject,2f);
         }
     }
 
