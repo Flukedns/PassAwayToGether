@@ -5,32 +5,26 @@ using UnityEngine.UI;
 public class ChooseItem : MonoBehaviour
 {
     [SerializeField] private GameObject ItemScreen;
-    [SerializeField] private Health health;
-    [SerializeField] private SpriteRenderer slipperCard;
-    [SerializeField] private SpriteRenderer swatterCard;
-    
-    [SerializeField] private Button slipperButton;
-    [SerializeField] private Button swatterButton;
+    [SerializeField] private PlayerController2 _playerController2;
+    [SerializeField] private GameManager _gameManager;
+    [SerializeField] private GameObject slipper;
+    [SerializeField] private GameObject slipperButton;
+    [SerializeField] private GameObject swatter;
     public void EnergyDrink()
     {
-        health.AddHP(1);
+        //health.AddHP(1);
+        //swatter.SetActive(true);
+        _playerController2.AddHP();
         ItemScreen.SetActive(false);
         Time.timeScale = 1;
     }
 
     public void Slipper()
     {
-        slipperButton.interactable = false;
+        slipperButton.SetActive(false);
         ItemScreen.SetActive(false);
-        slipperCard.color= Color.gray;
-        Time.timeScale = 1;
-    }
-
-    public void Swatter()
-    {
-        swatterButton.interactable = false;
-        ItemScreen.SetActive(false);
-        swatterCard.color = Color.gray;
+        swatter.SetActive(false);
+        slipper.SetActive(true);
         Time.timeScale = 1;
     }
     

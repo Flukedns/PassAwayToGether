@@ -9,10 +9,15 @@ public class EnemyManager2 : MonoBehaviour
     
     public int health;
     private Animator anim;
-    
+    private GameManager gameManager;
 
     private void Start()
     {
+        GameObject go = GameObject.FindGameObjectWithTag("GameController");
+        if (go != null)
+        {
+            gameManager = go.GetComponent<GameManager>();
+        }
         anim = GetComponent<Animator>();
     }
 
@@ -21,12 +26,14 @@ public class EnemyManager2 : MonoBehaviour
         if (damage.gameObject.tag == "TakenDamage")
         {
             health -= 1;
+            SoundManager.instance.Play(SoundManager.SoundName.hit);
         }
 
         if (health <= 0)
         {
             anim.SetBool("IsDead", true);
-            Destroy(gameObject,2f);
+            gameManager.GetScore();
+            Destroy(gameObject,1f);
         }
     }
 

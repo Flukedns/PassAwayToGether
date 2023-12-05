@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,16 +7,20 @@ public class Health : MonoBehaviour
 {   
     [SerializeField] private GameObject[] Hearts;
     private int HP;
-    public PlayerController2 Healht;
-    void Update()
+    public PlayerController2 playerController2;
+   
+
+    private void Start()
     {
-        HP = Healht.hp;
-        SetHP();
+        HP = playerController2.hp;
+        SetHP(HP);
+        
     }
 
-    public void SetHP()
-    {
-        if (HP == 0)
+    public void SetHP(int hp)
+    {   
+        Debug.Log(hp);
+        if (hp == 0)
         {
             Hearts[0].SetActive(false);
             Hearts[1].SetActive(false);
@@ -23,7 +28,7 @@ public class Health : MonoBehaviour
             Hearts[3].SetActive(false);
             Hearts[4].SetActive(false);
         }
-        if (HP == 1)
+        if (hp == 1)
         {
             Hearts[0].SetActive(true);
             Hearts[1].SetActive(false);
@@ -31,7 +36,7 @@ public class Health : MonoBehaviour
             Hearts[3].SetActive(false);
             Hearts[4].SetActive(false);
         }
-        else if (HP == 2)
+        else if (hp == 2)
         {
             Hearts[0].SetActive(true);
             Hearts[1].SetActive(true);
@@ -39,7 +44,7 @@ public class Health : MonoBehaviour
             Hearts[3].SetActive(false);
             Hearts[4].SetActive(false);
         }
-        else if (HP == 3)
+        else if (hp == 3)
         {
             Hearts[0].SetActive(true);
             Hearts[1].SetActive(true);
@@ -47,7 +52,7 @@ public class Health : MonoBehaviour
             Hearts[3].SetActive(false);
             Hearts[4].SetActive(false);
         }
-        else if (HP == 4)
+        else if (hp == 4)
         {
             Hearts[0].SetActive(true);
             Hearts[1].SetActive(true);
@@ -55,7 +60,7 @@ public class Health : MonoBehaviour
             Hearts[3].SetActive(true);
             Hearts[4].SetActive(false);
         }
-        else if (HP == 5)
+        else if (hp == 5)
         {
             Hearts[0].SetActive(true);
             Hearts[1].SetActive(true);
@@ -64,10 +69,6 @@ public class Health : MonoBehaviour
             Hearts[4].SetActive(true);
         }
     }
-    public void AddHP(int heal)
-    {
-        HP += heal;
-        SetHP();
-    }
+    
     
 }

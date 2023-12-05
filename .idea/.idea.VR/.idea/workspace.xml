@@ -5,10 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="661c3021-117a-497f-820c-6ebbc53e02d2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/NewBehaviourScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NewBehaviourScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/floor.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/floor.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.VR/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VR/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/lebombo_4k.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/lebombo_4k.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/OVRIntegration/Runtime/Prefabs/TouchHandGrab/OVRHandSphereMap.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Interaction/OVRIntegration/Runtime/Prefabs/TouchHandGrab/OVRHandSphereMap.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Prefabs/OVRControllerPrefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Prefabs/OVRControllerPrefab.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PassAwayToGether/Model/CANDLE.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PassAwayToGether/Model/CANDLE.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PassAwayToGether/Model/paintuv.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PassAwayToGether/Model/paintuv.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PassAwayToGether/Prefab/Cockroach.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PassAwayToGether/Prefab/Cockroach.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PassAwayToGether/Prefab/GameManager.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PassAwayToGether/Prefab/GameManager.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PassAwayToGether/Prefab/SceneManager.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PassAwayToGether/Prefab/SceneManager.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PassAwayToGether/Prefab/SpawnPoint.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PassAwayToGether/Prefab/SpawnPoint.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PassAwayToGether/Scene/Dialog.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PassAwayToGether/Scene/Dialog.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PassAwayToGether/Scene/GamePlay.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PassAwayToGether/Scene/GamePlay.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PassAwayToGether/Scene/Gameplay2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PassAwayToGether/Scene/Gameplay2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PassAwayToGether/Scene/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PassAwayToGether/Scene/MainMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PassAwayToGether/Scripts/ChooseItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PassAwayToGether/Scripts/ChooseItem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PassAwayToGether/Scripts/EnemyManager2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PassAwayToGether/Scripts/EnemyManager2.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PassAwayToGether/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PassAwayToGether/Scripts/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PassAwayToGether/Scripts/Health.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PassAwayToGether/Scripts/Health.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PassAwayToGether/Scripts/PauseGame.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PassAwayToGether/Scripts/PauseGame.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PassAwayToGether/Scripts/PlayerController2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PassAwayToGether/Scripts/PlayerController2.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +59,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "sub__branch",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
