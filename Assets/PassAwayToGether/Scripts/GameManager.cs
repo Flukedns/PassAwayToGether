@@ -33,7 +33,7 @@ public class GameManager : MonoBehaviour
         {
             GameOver();
         }
-        if (score % 5==0)
+        if (score == 5)
         {
             UpgradeScreen.SetActive(true);
         }
