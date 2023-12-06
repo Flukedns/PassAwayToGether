@@ -1986,6 +1986,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2947935120560245624, guid: 2faa2bd0ae62ddf45bba0fd426362a03,
+        type: 3}
+      propertyPath: _trackingOriginType
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5189555685448262315, guid: 2faa2bd0ae62ddf45bba0fd426362a03,
         type: 3}
       propertyPath: m_Name
