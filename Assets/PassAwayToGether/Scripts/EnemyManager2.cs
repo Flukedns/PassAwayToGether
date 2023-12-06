@@ -48,7 +48,8 @@ public class EnemyManager2 : MonoBehaviour
             {
                 anim.SetBool("IsDead", true);
                 gameManager.GetScore();
-                Destroy(gameObject,1f);
+                //Destroy(gameObject,1f);
+                DestroyEnemy();
             }
         }
     }

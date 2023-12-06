@@ -4368,6 +4368,79 @@ MonoBehaviour:
   _whenSelectingInteractorViewRemoved:
     m_PersistentCalls:
       m_Calls: []
+--- !u!1001 &1332536321
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1994821373614909327, guid: 00c6b932c22581541930c0864b0285a2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 1994821373614909327, guid: 00c6b932c22581541930c0864b0285a2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1994821373614909327, guid: 00c6b932c22581541930c0864b0285a2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.67
+      objectReference: {fileID: 0}
+    - target: {fileID: 1994821373614909327, guid: 00c6b932c22581541930c0864b0285a2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1994821373614909327, guid: 00c6b932c22581541930c0864b0285a2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1994821373614909327, guid: 00c6b932c22581541930c0864b0285a2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1994821373614909327, guid: 00c6b932c22581541930c0864b0285a2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1994821373614909327, guid: 00c6b932c22581541930c0864b0285a2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1994821373614909327, guid: 00c6b932c22581541930c0864b0285a2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1994821373614909327, guid: 00c6b932c22581541930c0864b0285a2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8332342462813850337, guid: 00c6b932c22581541930c0864b0285a2,
+        type: 3}
+      propertyPath: m_Name
+      value: SpawnPoint (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8332342462813850337, guid: 00c6b932c22581541930c0864b0285a2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 00c6b932c22581541930c0864b0285a2, type: 3}
 --- !u!1 &1334476514
 GameObject:
   m_ObjectHideFlags: 0
@@ -6328,17 +6401,17 @@ PrefabInstance:
     - target: {fileID: 2148165770856663611, guid: 0cf2208fb2a94f640a4d3af15f37cd49,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.27522
+      value: 0.18521205
       objectReference: {fileID: 0}
     - target: {fileID: 2148165770856663611, guid: 0cf2208fb2a94f640a4d3af15f37cd49,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.27522
+      value: 0.18521205
       objectReference: {fileID: 0}
     - target: {fileID: 2148165770856663611, guid: 0cf2208fb2a94f640a4d3af15f37cd49,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.27522
+      value: 0.18521205
       objectReference: {fileID: 0}
     - target: {fileID: 2148165770856663611, guid: 0cf2208fb2a94f640a4d3af15f37cd49,
         type: 3}
@@ -6440,7 +6513,7 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
@@ -6897,6 +6970,11 @@ MonoBehaviour:
   - soundName: 3
     clip: {fileID: 8300000, guid: 58a35a19ee1bc0e45bf9172c5d4f9a14, type: 3}
     volume: 0.3
+    loop: 0
+    audioSource: {fileID: 0}
+  - soundName: 5
+    clip: {fileID: 8300000, guid: 9a21c533fdf1b0e4593b941316c0083f, type: 3}
+    volume: 0.5
     loop: 0
     audioSource: {fileID: 0}
 --- !u!4 &1792513501
@@ -8377,7 +8455,7 @@ PrefabInstance:
     - target: {fileID: 1994821373614909327, guid: 00c6b932c22581541930c0864b0285a2,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.087
+      value: 3.33
       objectReference: {fileID: 0}
     - target: {fileID: 1994821373614909327, guid: 00c6b932c22581541930c0864b0285a2,
         type: 3}
@@ -8446,6 +8524,7 @@ SceneRoots:
   - {fileID: 1027644030}
   - {fileID: 33709738291442379}
   - {fileID: 5558170965654960029}
+  - {fileID: 1332536321}
   - {fileID: 1535011827}
   - {fileID: 1193241696}
   - {fileID: 1833738681}

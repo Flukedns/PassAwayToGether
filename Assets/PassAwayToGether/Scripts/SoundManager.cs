@@ -30,7 +30,7 @@ public class SoundManager : MonoBehaviour
         Lose,
         hit,
         walk,
-        
+        upgrade,
         
 
     }

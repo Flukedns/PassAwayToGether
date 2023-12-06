@@ -15,8 +15,9 @@ public class ChooseItem : MonoBehaviour
         //health.AddHP(1);
         //swatter.SetActive(true);
         _playerController2.AddHP();
-        ItemScreen.SetActive(false);
         Time.timeScale = 1;
+        ItemScreen.SetActive(false);
+        
     }
 
     public void Slipper()
@@ -24,8 +25,9 @@ public class ChooseItem : MonoBehaviour
         slipperButton.SetActive(false);
         ItemScreen.SetActive(false);
         swatter.SetActive(false);
-        slipper.SetActive(true);
         Time.timeScale = 1;
+        slipper.SetActive(true);
+        
     }
     
 }
