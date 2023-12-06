@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -21,19 +22,34 @@ public class EnemyManager2 : MonoBehaviour
         anim = GetComponent<Animator>();
     }
 
-    void OnTriggerEnter(Collider damage)
+    /*void OnTriggerEnter(Collider damage)
     {
         if (damage.gameObject.tag == "TakenDamage")
         {
             health -= 1;
             SoundManager.instance.Play(SoundManager.SoundName.hit);
+            if (health <= 0)
+            {
+                anim.SetBool("IsDead", true);
+                gameManager.GetScore();
+                Destroy(gameObject,1f);
+            }
         }
+        
+    }*/
 
-        if (health <= 0)
+    private void OnCollisionEnter(Collision other)
+    {
+        if (other.gameObject.tag == "TakenDamage")
         {
-            anim.SetBool("IsDead", true);
-            gameManager.GetScore();
-            Destroy(gameObject,1f);
+            health -= 1;
+            SoundManager.instance.Play(SoundManager.SoundName.hit);
+            if (health <= 0)
+            {
+                anim.SetBool("IsDead", true);
+                gameManager.GetScore();
+                Destroy(gameObject,1f);
+            }
         }
     }
 
