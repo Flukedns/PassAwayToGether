@@ -27,6 +27,7 @@ public class ChooseItem : MonoBehaviour
         swatter.SetActive(false);
         Time.timeScale = 1;
         slipper.SetActive(true);
+        Analytics.Instance.WeaponUse("Slipper");
         
     }
     

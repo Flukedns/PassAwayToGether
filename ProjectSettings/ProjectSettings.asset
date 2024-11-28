@@ -843,8 +843,8 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: My project
-  metroPackageVersion: 
+  metroPackageName: Myproject
+  metroPackageVersion: 1.0.0.0
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
@@ -852,7 +852,7 @@ PlayerSettings:
   metroCertificateNotAfter: 0000000000000000
   metroApplicationDescription: My project
   wsaImages: {}
-  metroTileShortName: 
+  metroTileShortName: My project
   metroTileShowName: 0
   metroMediumTileShowName: 0
   metroLargeTileShowName: 0
@@ -919,11 +919,11 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: 75986061-9ccc-4820-9317-0b6d0e7812a9
+  cloudProjectId: 7ec5cdf1-10f0-4c4c-85a9-86fe3905d9a3
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: My project
-  organizationId: unity_e50efaa269d518f2802a
+  projectName: Cockroach Busters
+  organizationId: ekulf23
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}

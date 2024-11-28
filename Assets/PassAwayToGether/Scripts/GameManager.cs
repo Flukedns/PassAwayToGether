@@ -16,11 +16,17 @@ public class GameManager : MonoBehaviour
     private int overCount = 0;
     private int winCount = 0;
     private int upgrade = 0;
+    private float _timer;
+    private int minutes;
+    private int seconds;
+    private string ti;
     void Start()
     {   
         score = 0;
         Time.timeScale = 1;
         SoundManager.instance.Play(SoundManager.SoundName.BGM);
+        Analytics.Instance.WeaponUse("Mosquito Swatter");
+        Analytics.Instance.WeaponUse("Slipper");
     }
 
    
@@ -77,7 +83,6 @@ public class GameManager : MonoBehaviour
             UpgradeScreen.SetActive(false);
             winScreen.SetActive(true);
             Time.timeScale = 0;
-            
         }
         
     }
